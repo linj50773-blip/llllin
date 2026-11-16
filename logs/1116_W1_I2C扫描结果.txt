@@ -1,0 +1,7 @@
+TIDE W1 I2C scan | SDA GPIO8 | SCL GPIO9
+Found 0x19
+Found 0x5A
+Scan complete
+
+Recorded from the ESP32-S3 serial monitor at 115200 baud on 2026-11-16.
+The scan repeated successfully; 0x19 is the LIS3DH and 0x5A is the DRV2605L.

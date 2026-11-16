@@ -28,7 +28,7 @@
 ## 运行已验证 V0
 
 1. 在 Arduino IDE 中打开 `firmware/companion_v1_light/companion_v1_light.ino`。
-2. 选择 `ESP32S3 Dev Module` 和正确 USB 串口，确认已安装 ESP32 开发板包及 `Adafruit NeoPixel` 库。
+2. 选择 `ESP32S3 Dev Module` 和正确 USB 串口，确认已安装 ESP32 开发板包及 `Adafruit NeoPixel` 库。此台架当前可用的 IDE 编译设置为 `USB Mode = Hardware CDC and JTAG`、`USB CDC On Boot = Disabled`；命令行编译时分别对应 `USBMode=hwcdc,CDCOnBoot=default`。不要改成 `CDCOnBoot=cdc`，否则串口监视器可能只显示启动日志而不显示程序状态。
 3. 上传后打开串口监视器，波特率 `115200`。应看到 `DRV: OK`、`LIS3DH: OK`。
 4. 压 FSR：亮 1–4 颗琥珀色灯，并震动一次。松开：灯灭。按按钮：启用／暂停。明显移动：触发两次震动；门槛约 8000，触发后至少 8 秒且安静 2 秒才重新待命。串口发送 `v` 可手动震动一次。
 
