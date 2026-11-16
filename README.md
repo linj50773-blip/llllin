@@ -41,4 +41,4 @@ V0 串口输出是状态文本，**还不是 W6 所要求的 CSV 日志**。`a�
 3. 在现有接线基础上开发第 1 档会话固件；台架完整验证后再装入玩偶。
 4. 采集匿名测试日志，用 `analysis/analyze.py` 分析。
 
-目前尚无 GitHub 远端链接。请在提交前补上公开或评审可访问的仓库地址。
+GitHub 仓库：https://github.com/linj50773-blip/llllin
